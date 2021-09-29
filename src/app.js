@@ -4,7 +4,8 @@ import Customer from "./model/Customer.js";
 
 const products = [
     new Product(10.0, "DIS_10_PRODUCT1", "Product 1"),
-    new Product(180.0, "DIS_15_PRODUCT2", "Product 2")
+    new Product(180.0, "DIS_15_PRODUCT2", "Product 2"),
+    new Product(100.0, "DIS_20_PRODUCT4", "Product 4")
 ];
 
 const customer = new Customer("John Doe");
